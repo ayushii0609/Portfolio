@@ -394,24 +394,31 @@
                     </div>
                 </div>
 
-                <form class="contact-form" name="contact" method="POST" data-netlify="true" action="/success.html">
-    
-                    <input type="hidden" name="form-name" value="contact" /> 
+               <form class="contact-form" name="contact" method="POST" data-netlify="true" action="/success.html">
+                  <!-- Required hidden input for Netlify -->
+                  <input type="hidden" name="form-name" value="contact" />
                 
-                    <div class="form-group">
-                        <input type="text" name="name" placeholder="Your Name" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="email" name="email" placeholder="Your Email" required>
-                    </div>
-                    <div class="form-group">
-                        <input type="text" name="subject" placeholder="Subject">
-                    </div>
-                    <div class="form-group">
-                        <textarea name="message" placeholder="Your Message" required></textarea>
-                    </div>
-                    <button type="submit" class="btn btn-primary">Send Message</button>
+                  <!-- Extra hidden input to ensure detection -->
+                  <div style="display:none">
+                    <input type="text" name="bot-field" />
+                  </div>
+                
+                  <div class="form-group">
+                    <input type="text" name="name" placeholder="Your Name" required>
+                  </div>
+                  <div class="form-group">
+                    <input type="email" name="email" placeholder="Your Email" required>
+                  </div>
+                  <div class="form-group">
+                    <input type="text" name="subject" placeholder="Subject">
+                  </div>
+                  <div class="form-group">
+                    <textarea name="message" placeholder="Your Message" required></textarea>
+                  </div>
+                
+                  <button type="submit" class="btn btn-primary">Send Message</button>
                 </form>
+
 
             </div>
         </div>
@@ -463,6 +470,7 @@
     <script src="index.js"></script>
 </body>
 </html>
+
 
 
 
