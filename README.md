@@ -2,7 +2,7 @@ Digital Portfolio | Ayushi Panwar
 A personal portfolio website designed to showcase my journey as a B.Tech CSE student and aspiring developer. This project highlights my technical skills in frontend development and my interest in Data Structures and Algorithms.
 
 🚀 Live Demo
-[Insert Link to your GitHub Pages or Vercel Deployment]
+https://ayushi-panwar-portfolio.netlify.app/
 
 ✨ Features
 Dynamic Project Filtering: Users can filter projects by categories (Frontend, JavaScript, UI/UX).
