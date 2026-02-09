@@ -2,30 +2,20 @@ document.addEventListener('DOMContentLoaded', function () {
     // ===== Project Modal Data =====
     const projectDetails = {
         project1: {
-            title: "Electricity Billing System",
-            description: 'A robust desktop application developed in Java for managing electricity billing. It features a user-friendly interface for customer management, bill generation, and payment tracking, with data persistence handled by MySQL. This project showcases my proficiency in Java Swing for GUI development and database management.',
-            technologies: ["Java", "Swing", "MySQL"]
-        },
-        project2: {
             title: "Personal Portfolio Website",
             description: 'This is a responsive personal portfolio website built with HTML, CSS, and JavaScript. Its designed to showcase my skills, experience, and projects to potential employers or collaborators. The clean, modern design ensures a great user experience on all devices.',
             technologies: ["HTML5", "CSS3", "JavaScript"]
+        },
+        project2: {
+            title: "Clarity Hub Landing Page",
+            description: 'A modern, fully responsive landing page built with clean, semantic HTML and custom CSS. It features a sleek user interface, smooth navigation, and optimized layouts for mobile and desktop, showcasing a focus on high-quality UI/X and frontend performance.',
+            technologies: ["HTML5", "CSS3"]
         },
         project3: {
             title: "Tic-Tac-toe Game",
             description: 'The game features a 3x3 grid where players take turns marking spaces until one player gets three in a row or the game ends in a draw. This project demonstrates foundational front-end development skills, including DOM manipulation, event handling, and conditional logic.',
             technologies: ["HTML", "CSS", "JavaScript"]
-        },
-        project4: {
-            title: "Rock Paper Scissors Game",
-            description: 'This project showcases my foundational front-end skills in implementing game logic, handling user input, and dynamically updating the interface to create an engaging experience.',
-            technologies: ["HTML", "CSS", "JavaScript"]
-        },
-        project5: {
-            title: "E-commerce Website",
-            description: 'A fully responsive e-commerce website with a modern design. This project will focuse on building a seamless online shopping experience, including product filtering, a shopping cart, and dynamic content display demonstrating my skills in creating complex front-end web applications.',
-            technologies: ["HTML", "CSS", "JavaScript"]
-        }        
+        }      
     };
 
     // ===== Mobile Nav Toggle =====
