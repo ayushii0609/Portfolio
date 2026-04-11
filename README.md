@@ -1,10 +1,12 @@
 Digital Portfolio | Ayushi Panwar
+
 A personal portfolio website designed to showcase my journey as a B.Tech CSE student and aspiring developer. This project highlights my technical skills in frontend development and my interest in Data Structures and Algorithms.
 
 🚀 Live Demo
 https://ayushi-panwar-portfolio.netlify.app/
 
 ✨ Features
+
 Dynamic Project Filtering: Users can filter projects by categories (Frontend, JavaScript, UI/UX).
 
 Responsive UI: Fully optimized for mobile, tablet, and desktop viewing.
@@ -14,6 +16,7 @@ Design Thinking Approach: Focused on a minimalist and intuitive user experience.
 Skill Showcase: Highlights proficiency in Java, Web Development, and Machine Learning.
 
 🛠️ Tech Stack
+
 HTML5: Structured with semantic elements for better SEO and accessibility.
 
 CSS3: Custom styling using Flexbox for layouts and smooth transitions.
