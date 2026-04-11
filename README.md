@@ -21,6 +21,7 @@ CSS3: Custom styling using Flexbox for layouts and smooth transitions.
 JavaScript: Powering the interactive filtering logic and navigation.
 
 📁 Projects Included
+
 The Clarity Hub (Landing Page): A focus on high-quality UI/UX and responsiveness.
 
 Tic-Tac-Toe: A logic-based game demonstrating state management in JS.
