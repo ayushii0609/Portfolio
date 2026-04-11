@@ -15,7 +15,12 @@ document.addEventListener('DOMContentLoaded', function () {
             title: "Tic-Tac-toe Game",
             description: 'The game features a 3x3 grid where players take turns marking spaces until one player gets three in a row or the game ends in a draw. This project demonstrates foundational front-end development skills, including DOM manipulation, event handling, and conditional logic.',
             technologies: ["HTML", "CSS", "JavaScript"]
-        }      
+        },
+        project4: {
+            title: "Financial Dashboard",
+            description: "Developed a dynamic financial dashboard using React to track and visualize transaction data. Features include real-time updates, interactive UI components, and structured data handling. Showcases strong understanding of state management, component design, and responsive web development.",
+            technologies: ["React", "JavaScript", "CSS"]
+        }
     };
 
     // ===== Mobile Nav Toggle =====
